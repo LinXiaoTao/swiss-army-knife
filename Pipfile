@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+qrcode = "*"
+pymaging = {git = "git://github.com/ojii/pymaging.git"}
+pymaging-png = {git = "git://github.com/ojii/pymaging-png.git"}
+pillow = "*"
+flask = "*"
+
+[requires]
+python_version = "3.7"
